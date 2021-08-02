@@ -171,6 +171,13 @@ nav{
 
 .certificate{
     width: 100%;
+    transition: all 0.2s ease-in-out;
+    filter: grayscale(75%);
+}
+
+.certificate:hover{
+    transform: scale(1.05);
+    filter: grayscale(0%);
 }
 
 /* Start last section */
